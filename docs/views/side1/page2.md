@@ -1,11 +1,10 @@
-# page2
+---
+title: 页面二
+date: 2020-08-26
+categories:
+ - 前端面试
+tags:
+ - css
+---
 
-	this is page 2
-
-## title2
-
-	this is title 2
-
-### title 3
-
-	this is title 3
+# CSS

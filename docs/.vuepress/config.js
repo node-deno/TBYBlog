@@ -7,6 +7,7 @@ module.exports = {
 	theme: 'reco',
 	base: '/vuepress-project/',
 	themeConfig: {
+		// 这个主题是引用第三方的主题，这个主题有两种模式一种是普通模式，另一种是博客模式，在config.js的themeConfig中设置  type:'blog'即可
 		type: 'blog',
 		logo: '/images/logo.png',
 		nav,
@@ -14,7 +15,7 @@ module.exports = {
 		sidebarDepth: 1,
 		blogConfig: {
 			category: {
-				location: 2,     // 在导航栏菜单中所占的位置，默认2
+				location: 1,     // 在导航栏菜单中所占的位置，默认2
 				text: '文章分类' // 默认文案 “分类”
 			},
 			tag: {
@@ -23,9 +24,9 @@ module.exports = {
 			}
 		}
 	},
-	author: 'suohongbo',
+	author: 'TBY',
 	head: [
 		["link", { rel: "icon", href: "/favicon.ico" }],
-		["meta", { name: "viewport", content: "width=device-width,initial-scale=1,user-scalable=no" }]
+		["meta", { name: "node-deno", content: "width=device-width,initial-scale=1,user-scalable=no" }]
 	]
 }

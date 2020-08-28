@@ -2,7 +2,7 @@ module.exports = {
 	'/views/': [
 		'',
 		{
-			title: '侧边栏1',
+			title: '前端面试总结技能',
 			collapsable: true,
 			children: [
 				'side1/page1',
@@ -10,7 +10,7 @@ module.exports = {
 			]
 		},
 		{
-			title: '侧边栏2',
+			title: '工作总结技能总结',
 			collapsable: true,
 			children: [
 				'side2/page3',

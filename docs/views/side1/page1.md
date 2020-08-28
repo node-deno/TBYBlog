@@ -1,8 +1,8 @@
 ---
-title: 前端规范
+title: 页面一
 date: 2020-08-25
 categories:
- - frontEnd
+ - 前端面试
 tags:
  - vue
 ---
