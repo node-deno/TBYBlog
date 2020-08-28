@@ -10,15 +10,15 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/shb190802/vuepress-project.git"
+		"url": "git+https://github.com/node-deno/vuepress-project.git"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/shb190802/vuepress-project/issues"
+		"url": "https://github.com/node-deno/vuepress-project/issues"
 	},
-	"homepage": "https://github.com/shb190802/vuepress-project#readme",
+	"homepage": "https://github.com/node-deno/vuepress-project#readme",
 	"devDependencies": {
 		"vuepress": "^1.5.4",
 		"vuepress-theme-reco": "^1.5.5"
