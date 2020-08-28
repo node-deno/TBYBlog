@@ -2,12 +2,12 @@ const nav = require('./config/nav')
 const sidebar = require('./config/sidebar')
 
 module.exports = {
-	title: '项目标题',
-	description: '项目描述',
+	title: 'VuePress-demo',
+	description: '我们借助VuePress可以快速的搭建属于自己的博客，并且可以直接放在github的二级域名上，不需要我们花费一分钱搭建一个静态资源的网站',
 	theme: 'reco',
 	base: '/vuepress-project/',
 	themeConfig: {
-		// type: 'blog',
+		type: 'blog',
 		logo: '/images/logo.png',
 		nav,
 		sidebar,
@@ -18,7 +18,7 @@ module.exports = {
 				text: '文章分类' // 默认文案 “分类”
 			},
 			tag: {
-				location: 3,     // 在导航栏菜单中所占的位置，默认3
+				location: 5,     // 在导航栏菜单中所占的位置，默认5
 				text: 'Tag'      // 默认文案 “标签”
 			}
 		}
