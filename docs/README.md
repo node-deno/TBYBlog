@@ -30,5 +30,3 @@ home: true
    ![](C:\Users\TBY\Desktop\vuepress-project\docs\.vuepress\public\images\设置blog模式.png)
 
    **普通模式**![](C:\Users\TBY\Desktop\vuepress-project\docs\.vuepress\public\images\普通模式.png)**博客模式**![](C:\Users\TBY\Desktop\vuepress-project\docs\.vuepress\public\images\reco博客模式.png)
-
-4. 

@@ -1,6 +1,5 @@
 module.exports = {
 	'/views/': [
-		'',
 		{
 			title: '前端面试总结技能',
 			collapsable: true,
