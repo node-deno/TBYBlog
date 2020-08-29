@@ -5,7 +5,7 @@ module.exports = {
 	title: 'TBY',
 	description: '今天比昨天好，就是希望',
 	theme: 'reco',
-	base: '/vuepress-project/',
+	base: '/TBYBlog/',
 	themeConfig: {
 		// 这个主题是引用第三方的主题，这个主题有两种模式一种是普通模式，另一种是博客模式，在config.js的themeConfig中设置  type:'blog'即可
 		type: 'blog',
@@ -19,7 +19,7 @@ module.exports = {
 		// 导航栏顶部进行显示
 		nav: [
 			{ text: '时间轴', link: '/timeline/', icon: 'reco-date' },
-			{ text: 'github', link: 'https://github.com/node-deno/vuepress-project', icon: 'reco-github' }
+			{ text: 'github', link: 'https://github.com/node-deno/TBYBlog', icon: 'reco-github' }
 		],
 
 		// 侧边栏的配置
