@@ -10,15 +10,15 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/node-deno/vuepress-project.git"
+		"url": "git+https://github.com/node-deno/TBYBlog.git"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/node-deno/vuepress-project/issues"
+		"url": "https://github.com/node-deno/TBYBlog/issues"
 	},
-	"homepage": "https://github.com/node-deno/vuepress-project#readme",
+	"homepage": "https://github.com/node-deno/TBYBlog#readme",
 	"devDependencies": {
 		"vuepress": "^1.5.4",
 		"vuepress-theme-reco": "^1.5.5"
