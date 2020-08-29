@@ -2,8 +2,8 @@ const nav = require('./config/nav')
 const sidebar = require('./config/sidebar')
 
 module.exports = {
-	title: 'TBY-VuePressDemo',
-	description: '我们借助VuePress可以快速的搭建属于自己的博客，并且可以直接放在github的二级域名上，不需要我们花费一分钱搭建一个静态资源的网站',
+	title: 'TBY',
+	description: '今天比昨天好，就是希望',
 	theme: 'reco',
 	base: '/vuepress-project/',
 	themeConfig: {
@@ -11,10 +11,10 @@ module.exports = {
 		type: 'blog',
 
 		// nav左上角的logo
-		logo: '/images/logo.png',
+		logo: '/images/faceImg.gif',
 
 		// 头像设置
-		authorAvatar: '/images/faceImg.jpg',
+		authorAvatar: '/images/faceImg.gif',
 
 		// 导航栏顶部进行显示
 		nav: [
@@ -27,6 +27,7 @@ module.exports = {
 
 		// 侧边栏是否打开
 		sidebarDepth: 'auto',
+
 		// 博客配置（这个是在nav导航栏的顶部进行显示）
 		// blogConfig: {
 		// 	category: {
@@ -38,8 +39,6 @@ module.exports = {
 		// 		text: 'Tag'      // 默认文案 “标签”
 		// 	}
 		// },
-
-
 	},
 	author: 'TBY',
 

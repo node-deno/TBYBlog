@@ -1,7 +1,7 @@
 module.exports = {
 	'/views/': [
 		{
-			title: '前端面试总结技能',
+			title: '工作开发总结',
 			collapsable: true,
 			children: [
 				'side1/page1',
@@ -9,7 +9,7 @@ module.exports = {
 			]
 		},
 		{
-			title: '工作总结技能总结',
+			title: 'JAVA内训总结',
 			collapsable: true,
 			children: [
 				'side2/page3',
