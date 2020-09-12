@@ -1,5 +1,5 @@
 ---
-title: 页面一
+title: JavaScript
 date: 2020-08-25
 categories:
  - 前端面试
@@ -13,14 +13,4 @@ tags:
 <Icon type='phone'/>
 </div>
 
-# page1
-
-	this is page 1
-
-## title2
-
-	this is title 2
-
-### title 3
-
-	this is title 3
+# JavaScript
