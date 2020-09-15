@@ -11,6 +11,7 @@ tags:
 <Icon type='phone'/>
 </div>
 
+
 # JAVA面向对象
 
 **JAVA是一门面向对象的语言，并且JAVA现在依然是应用最多的后端语言。那么今天就来学习下JAVA的面向对象。**
@@ -185,4 +186,39 @@ public class App{
 ## 接口
 
 **由于JAVA中只能进行class的单继承的模式，所以出现了接口可以模拟多继承**
+
+```java
+interface Monster {
+	// 这就是一个抽象方法
+	void destory();
+}
+
+interface Vampire {
+	void drinkblood();
+}
+
+class Darcula implements Monster, Vampire {
+	@Override
+	public void destory() {
+		System.out.println("我破坏");
+	}
+	@Override
+	public void drinkblood() {
+		System.out.println("我吸血我吸吸");
+	}
+	public void fly() {
+		System.out.println("我飞飞飞");
+	}
+}
+
+public class App {
+	public static void main(String[] args) {
+		Darcula d = new Darcula();
+
+		d.destory();
+		d.drinkblood();
+		d.fly();
+	}
+}
+```
 

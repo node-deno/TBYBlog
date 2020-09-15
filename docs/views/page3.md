@@ -97,7 +97,6 @@ public class App{
     }
     ```
   
-    
 - final
   - final变量不能被重新赋值，通常和static修饰符一起来创建类常量
   - 类中final方法可以被子类继承，但是不能被子类重写
@@ -223,13 +222,60 @@ public class App {
 }
 ```
 
+## 异常处理
 
+**在JAVA中异常分为两大类，一类是异常，另一类是错误，但是我们在编码过程中主要处理异常，错误一般不进行处理**
 
+- 异常
+  - 程序员通过编码手段可以解决掉的错误
+  - 在JAVA中异常有一个基类Exception
+- 错误
+  - 程序员无法通过编码手段解决的错误
 
+**异常可以分为**
 
+- 运行时异常，程序中不需要强制处理的异常
+  - 每个方法都会默认抛出运行时异常，所有运行时异常的父类都是RuntimeException
+- 检查型异常（编译期异常），程序必须要处理掉的异常
+  - 程序种必须要处理掉的异常的处理方法由两种方法
+    - 就地解决（自己解决）try-catch（Ps：还会执行后续的代码）
+    - 把异常向上进行抛出    throws   Exception
 
+```java
+public class App {
+	static void f1() {
+		try {
+			throw new Exception("有异常抛出");
+		} catch (Exception e) {
+			System.out.println("异常已经处理");	
+		}
+	}
+//	在方法头的声明处，写"throws Exception"表示当前方法有可能会抛出Exception异常
+//	throws Exception 会把异常抛给上级
+	static void f2() throws Exception {
+		throw new Exception("呵呵呵");
+	}
+	public static void main(String[] args) throws Exception {
+		f1();
+		f2();
+		System.out.println("123");
+	}
+}
+```
 
+```java
+public class App{
+	static void f1() {
+		throw new RuntimeException("哈哈哈");
+	}
+	public static void main(String[] args) {
+		f1();
+		System.out.println(123456);
+	}
+}
+```
 
+**注意，有时调用方法显示错误，就是因为调用这个方法的时候需要做抛出异常的处理，例如：关于IO操作的方法**
 
 
 
