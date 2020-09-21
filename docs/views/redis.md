@@ -1,10 +1,10 @@
 ---
-title: vscode使用技巧
-date: 2020-09-17
+title: redis
+date: 2020-09-21
 categories:
- - 前端面试
+ - 非关系型数据库
 tags:
- - vscode
+ - redis
 ---
 
 
@@ -13,4 +13,4 @@ tags:
 <Icon type='phone'/>
 </div>
 
-# vscode使用小技巧总结
+# redis

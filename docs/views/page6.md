@@ -17,10 +17,30 @@ tags:
 
 ## filters过滤器
 
+
+
 ## VUE全生命周期
 
+- beforeUpdate
+- updated
+- beforeMount
+- mounted
+- beforeUpdate
+- updated
+- beforeDestroy
+- destoryed
+
+
+
 ## 事件修饰符
+
+- once
+- stop
+- prevent
 
 ## v-for中key的作用
 
 **循环中默认会记住下标**
+
+## VUEX
+

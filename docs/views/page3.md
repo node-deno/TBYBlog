@@ -277,19 +277,18 @@ public class App{
 
 **注意，有时调用方法显示错误，就是因为调用这个方法的时候需要做抛出异常的处理，例如：关于IO操作的方法**
 
+## HashMap、set、list
 
+## Mybatis的会话（cookie与session）
 
+**Mybatis会判断前端是否传有cookie，如果没有传那么就会在响应头中加入cookie。那么前端需要设置每次请求带上cookie，向后端再发送数据。不用对后端进行处理，后端就会给前端返回数据！！**
 
+## HttpMessageConverter重点讲解，@RequestBody
 
+## Tomcat
 
-
-
-
-
-
-
-
-
+- 我们进入tomcat文件夹的bin目录下，点击startup.bat可以启动tomcat服务器，点击shutdown.bat可以关闭tomcat服务器
+- tomcat服务器的默认端口号是8080，我们可以进入tomcat文件夹的conf目录下，打开server.xml文件。搜索**connectionTimeout="20000" port="8080" protocol="HTTP/1.1"**然后更改port即可修改tomcat服务的端口
 
 
 
