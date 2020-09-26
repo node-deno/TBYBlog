@@ -10,8 +10,9 @@ tags:
 <div style="border:solid 1px #000;padding: 10px;">
 <Icon type='phone'/>
 </div>
-
 # JAVA基础
+
+**在一开始进行培训JAVA的时候立了雄心壮志，立志在一个月的时间内掌握JAVA的基础，事实上我天真了，因为这个培训是项目驱动，导致JAVA的基础老师只讲了一个星期（本来只讲一天，这个也是因为班里有很多和我一样不了解JAVA的同学老师才不得不妥协进行一些JAVA基础知识的讲解）。但是上面那些都是借口，我会在最近抽时间学习JAVA基础来达到对一整个项目有基础了解目的，让我们拭目以待JAVA第二轮的学习**
 
 > JAVA依然是现在的应用最广泛的语言，今天我们来学习关于JAVA的一些基础知识。
 >
@@ -289,8 +290,6 @@ public class App{
 
 - 我们进入tomcat文件夹的bin目录下，点击startup.bat可以启动tomcat服务器，点击shutdown.bat可以关闭tomcat服务器
 - tomcat服务器的默认端口号是8080，我们可以进入tomcat文件夹的conf目录下，打开server.xml文件。搜索**connectionTimeout="20000" port="8080" protocol="HTTP/1.1"**然后更改port即可修改tomcat服务的端口
-
-
 
 
 
