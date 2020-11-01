@@ -3,7 +3,7 @@ const sidebar = require('./config/sidebar')
 
 module.exports = {
 	title: 'TBY',
-	description: '今天比昨天好，就是希望',
+	description: '人生除了生死  其他都是擦伤',
 	theme: 'reco',
 	base: '/TBYBlog/',
 	themeConfig: {
