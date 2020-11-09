@@ -4,7 +4,7 @@ date: 2020-09-14
 categories:
  - 前端面试
 tags:
- - Es6
+ - ES6
 ---
 
 
