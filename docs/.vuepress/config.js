@@ -4,6 +4,7 @@ const sidebar = require('./config/sidebar')
 module.exports = {
 	title: 'TBY',
 	description: '人生除了生死  其他都是擦伤',
+	// descriptionColor:'white',
 	theme: 'reco',
 	base: '/TBYBlog/',
 	themeConfig: {
