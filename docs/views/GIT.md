@@ -13,7 +13,7 @@ tags:
 <Icon type='phone'/>
 </div>
 
-- # GIT配置
+# GIT配置
 
 
 - 查看配置
