@@ -6,7 +6,8 @@ module.exports = {
 	description: '人生除了生死  其他都是擦伤',
 	// descriptionColor:'white',
 	theme: 'reco',
-	base: '/TBYBlog/',
+	base: '',  //在服务器哪个路径下就配置什么路径，如果在根路径下啥都不用配置
+	// base: '/TBYBlog/',
 	themeConfig: {
 		// 这个主题是引用第三方的主题，这个主题有两种模式一种是普通模式，另一种是博客模式，在config.js的themeConfig中设置  type:'blog'即可
 		type: 'blog',
