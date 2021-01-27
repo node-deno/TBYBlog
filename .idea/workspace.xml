@@ -18,6 +18,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -35,6 +36,9 @@
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="9dd3a6ea-b8d5-447f-a4a2-ebab771ec293" name="Default Changelist" comment="" />
@@ -47,13 +51,18 @@
       <workItem from="1604571089011" duration="562000" />
       <workItem from="1604582268248" duration="34000" />
       <workItem from="1604582313224" duration="768000" />
+      <workItem from="1611628179666" duration="44000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="457" y="217" key="#Deployment" timestamp="1611628222845">
+      <screen x="0" y="0" width="1728" height="1112" />
+    </state>
+    <state x="457" y="217" key="#Deployment/0.0.1728.1112@0.0.1728.1112" timestamp="1611628222845" />
     <state x="563" y="154" width="602" height="804" key="find.popup" timestamp="1604571276172">
       <screen x="0" y="0" width="1728" height="1112" />
     </state>
