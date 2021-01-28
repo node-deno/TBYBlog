@@ -4,7 +4,6 @@ const sidebar = require("./config/sidebar");
 module.exports = {
   title: "TBYBlog",
   description: "人生除了生死  其他都是擦伤",
-  // descriptionColor:'white',
   theme: "reco",
   base: "", //在服务器哪个路径下就配置什么路径，如果在根路径下啥都不用配置
   // base: '/TBYBlog/',
@@ -55,6 +54,14 @@ module.exports = {
 		link:'https://suohb.com/'
       },
     ],
+
+     // 备案
+     record: '豫ICP备2021001417号-1',
+     recordLink: 'https://beian.miit.gov.cn/',
+    //  cyberSecurityRecord: '公安部备案文案',
+    //  cyberSecurityLink: '公安部备案指向链接',
+     // 项目开始时间，只填写年份
+     startYear: '2017'
   },
   author: "TBY",
 
