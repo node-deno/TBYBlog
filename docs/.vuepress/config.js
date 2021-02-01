@@ -28,7 +28,7 @@ module.exports = {
     ],
 
     // 侧边栏的配置
-    sidebar,
+    sidebar, 
 
     // 侧边栏是否打开
     sidebarDepth: "auto",
@@ -58,8 +58,8 @@ module.exports = {
      // 备案
      record: '豫ICP备2021001417号-1',
      recordLink: 'https://beian.miit.gov.cn/',
-    //  cyberSecurityRecord: '公安部备案文案',
-    //  cyberSecurityLink: '公安部备案指向链接',
+     cyberSecurityRecord: '豫公网安备 41010702002879号',
+     cyberSecurityLink: 'http://www.beian.gov.cn',
      // 项目开始时间，只填写年份
      startYear: '2021'
   },
