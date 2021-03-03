@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="36b8be6c-9c3e-4d29-9bb3-29abf8f7368c" name="阿里云">
+        <fileTransfer rootFolder="/usr/local/webserver/nginx/html/TBYBlog" accessType="SFTP" host="81.70.80.155" port="22" sshConfigId="2fd61cc0-342a-492b-b38b-6cbc51135f29" sshConfig="root@81.70.80.155:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
