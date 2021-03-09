@@ -74,4 +74,4 @@ tags:
 
 **启动webpack-dev-server的时候有一个坑：一定要在项目的根路径运行    .\node_modules\\.bin\webpack-dev-server.cmd   这个命令，因为你在哪个路径下面运行这个命令，哪个路径就是你的根目录**
 
-项目名称一定不要叫vue，如果你叫vue再npm  i  vue会报错，因为你的项目也是一个包了
+**项目名称一定不要叫vue，如果你叫vue再npm  i  vue会报错，因为你的项目也是一个包了**
