@@ -2,7 +2,7 @@
 title: 使用VUE写一个网站的主页
 date: 2020-11-05
 categories:
- - 前端
+ - vue
 tags:
  - vue
 ---
