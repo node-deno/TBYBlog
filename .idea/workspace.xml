@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9dd3a6ea-b8d5-447f-a4a2-ebab771ec293" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/自己搞套UI框架.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +89,7 @@
       <workItem from="1615291151790" duration="211000" />
       <workItem from="1615347295123" duration="674000" />
       <workItem from="1615356709578" duration="997000" />
+      <workItem from="1615888228334" duration="895000" />
     </task>
     <servers />
   </component>
@@ -126,6 +126,10 @@
       <screen x="-607" y="-1440" width="2752" height="1112" />
     </state>
     <state x="106" y="-1236" key="#SSH_Configurations/0.0.1728.1112/-607.-1440.2752.1112@-607.-1440.2752.1112" timestamp="1614773517811" />
+    <state x="662" y="416" key="#com.intellij.ws.actions.HttpClientConvertFromCurlDialog" timestamp="1615888233330">
+      <screen x="0" y="0" width="1728" height="1112" />
+    </state>
+    <state x="662" y="416" key="#com.intellij.ws.actions.HttpClientConvertFromCurlDialog/0.0.1728.1112@0.0.1728.1112" timestamp="1615888233330" />
     <state x="1222" y="-1180" key="FileChooserDialogImpl" timestamp="1614773672418">
       <screen x="-607" y="-1440" width="2752" height="1112" />
     </state>
