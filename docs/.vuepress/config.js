@@ -73,7 +73,15 @@ module.exports = {
       {
         name: "node-deno",
         content: "width=device-width,initial-scale=1,user-scalable=no",
-      },
+      }
     ],
+    [
+      "meta",
+      //  针对于网络图片防盗链的处理，屏蔽referer信息，让网络图片的服务器无法判断
+      {
+        name:"referrer",
+        content:"no-referrer"
+      }
+    ]
   ],
 };

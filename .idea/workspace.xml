@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dd3a6ea-b8d5-447f-a4a2-ebab771ec293" name="Default Changelist" comment="" />
+    <list default="true" id="9dd3a6ea-b8d5-447f-a4a2-ebab771ec293" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/CSS平常不常用但是很有用的属性.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/views/CSS平常不常用但是很有用的属性.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,6 +93,8 @@
       <workItem from="1615888228334" duration="895000" />
       <workItem from="1616428100275" duration="1220000" />
       <workItem from="1616513157137" duration="381000" />
+      <workItem from="1617003041874" duration="32000" />
+      <workItem from="1617072352918" duration="4175000" />
     </task>
     <servers />
   </component>
