@@ -42,3 +42,8 @@ user-select:none/text   不能复制/能复制
 
 ![](https://segmentfault.com/img/bVpI0Z)
 
+
+
+
+
+在iview框架Table组件的过程中，将渲染Table组件的data数据初始化为null会报错，说找不到length，也就是说Table组件的data数据初始化应该为一个空数组
