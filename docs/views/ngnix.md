@@ -1,5 +1,5 @@
 ---
-title: ngnix不可不知的秘密
+title: 你要知道的ngnix
 date: 2021-01-20
 categories:
  - ngnix
