@@ -7,7 +7,16 @@ tags:
  - ngnix
 ---
 
+# nginx的基本操作
 
+## nginx启动
+> ./nginx   将nginx进行启动
+
+## nginx停止
+> ./nginx -s stop   将nginx进行停止
+
+## nginx重启
+> ./nginx -s reload     将nginx进行重启（PS：一般在修改了nginx配置文件之后需要进行nginx的重启）
 
 # nginx不可不知的秘密
 

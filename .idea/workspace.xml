@@ -19,7 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dd3a6ea-b8d5-447f-a4a2-ebab771ec293" name="Default Changelist" comment="" />
+    <list default="true" id="9dd3a6ea-b8d5-447f-a4a2-ebab771ec293" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sshConfigs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/ngnix.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/views/ngnix.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/views/正则.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/views/正则.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +70,7 @@
       <recent name="C:\Users\TBY\Desktop\code\TBYBlog\docs\views" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -92,11 +98,14 @@
       <workItem from="1617003041874" duration="32000" />
       <workItem from="1617072352918" duration="4175000" />
       <workItem from="1617121325567" duration="296000" />
+      <workItem from="1620356996973" duration="391000" />
+      <workItem from="1625122889485" duration="198000" />
+      <workItem from="1625123104717" duration="2556000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -109,47 +118,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="382" y="170" width="999" height="677" key="#Deployment" timestamp="1615357152362">
-      <screen x="0" y="0" width="1728" height="1112" />
-    </state>
-    <state x="942" y="-1276" width="999" height="677" key="#Deployment/0.0.1728.1112/-607.-1440.2752.1112@-607.-1440.2752.1112" timestamp="1614773683273" />
-    <state x="382" y="170" key="#Deployment/0.0.1728.1112/111.-1080.1920.1080@0.0.1728.1112" timestamp="1615357152362" />
-    <state x="458" y="217" key="#Deployment/0.0.1728.1112@0.0.1728.1112" timestamp="1611921257488" />
-    <state x="636" y="170" key="#Deployment/0.0.1728.1152/111.-1080.1920.1080@0.0.1728.1152" timestamp="1615356743942" />
-    <state x="1025" y="282" key="#Options" timestamp="1615357132676">
-      <screen x="0" y="0" width="1728" height="1112" />
-    </state>
-    <state x="1106" y="-1158" key="#Options/0.0.1728.1112/-607.-1440.2752.1112@-607.-1440.2752.1112" timestamp="1614773643621" />
-    <state x="1025" y="282" key="#Options/0.0.1728.1112/111.-1080.1920.1080@0.0.1728.1112" timestamp="1615357132676" />
-    <state x="1025" y="292" key="#Options/0.0.1728.1152/111.-1080.1920.1080@0.0.1728.1152" timestamp="1615356726867" />
-    <state x="106" y="-1236" key="#SSH_Configurations" timestamp="1614773517811">
-      <screen x="-607" y="-1440" width="2752" height="1112" />
-    </state>
-    <state x="106" y="-1236" key="#SSH_Configurations/0.0.1728.1112/-607.-1440.2752.1112@-607.-1440.2752.1112" timestamp="1614773517811" />
-    <state x="662" y="416" key="#com.intellij.ws.actions.HttpClientConvertFromCurlDialog" timestamp="1615888233330">
-      <screen x="0" y="0" width="1728" height="1112" />
-    </state>
-    <state x="662" y="416" key="#com.intellij.ws.actions.HttpClientConvertFromCurlDialog/0.0.1728.1112@0.0.1728.1112" timestamp="1615888233330" />
-    <state x="1222" y="-1180" key="FileChooserDialogImpl" timestamp="1614773672418">
-      <screen x="-607" y="-1440" width="2752" height="1112" />
-    </state>
-    <state x="1222" y="-1180" key="FileChooserDialogImpl/0.0.1728.1112/-607.-1440.2752.1112@-607.-1440.2752.1112" timestamp="1614773672418" />
-    <state x="1109" y="187" width="570" height="744" key="find.popup" timestamp="1616428413554">
-      <screen x="0" y="0" width="1728" height="1112" />
-    </state>
-    <state x="1159" y="-1253" width="596" height="744" key="find.popup/0.0.1728.1112/-607.-1440.2752.1112@-607.-1440.2752.1112" timestamp="1614774364428" />
-    <state x="1109" y="187" width="570" height="744" key="find.popup/0.0.1728.1112/-607.-1440.2752.1112@0.0.1728.1112" timestamp="1616428413554" />
-    <state x="487" y="-1143" key="ftp.server.browser" timestamp="1614773677096">
-      <screen x="-607" y="-1440" width="2752" height="1112" />
-    </state>
-    <state x="487" y="-1143" key="ftp.server.browser/0.0.1728.1112/-607.-1440.2752.1112@-607.-1440.2752.1112" timestamp="1614773677096" />
-    <state x="874" y="-802" key="ftp.server.browser/0.0.1728.1112/111.-1080.1920.1040@111.-1080.1920.1040" timestamp="1611911028335" />
-    <state x="515" y="-963" key="publish.login" timestamp="1614773355306">
-      <screen x="-607" y="-1440" width="2752" height="1112" />
-    </state>
-    <state x="515" y="-963" key="publish.login/0.0.1728.1112/-607.-1440.2752.1112@-607.-1440.2752.1112" timestamp="1614773355306" />
-    <state x="894" y="-634" key="publish.login/0.0.1728.1112/111.-1080.1920.1040@111.-1080.1920.1040" timestamp="1611910988025" />
   </component>
 </project>
