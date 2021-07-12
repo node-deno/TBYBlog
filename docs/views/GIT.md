@@ -28,7 +28,9 @@ Git 与常用的版本控制工具 CVS, Subversion 等不同，它采用了分�
   - git config --global(local/system) user.name 'you_name'
 - 配置email
   - git config --global(local/system) user.email 'you_email'
-
+- 重写name或者email
+  - git config --global(local/system) --replace-all user.name(user.email) 'you_name(you_email)'
+  
 **config的三个作用域**
 
 - --local    **对某个仓库生效**

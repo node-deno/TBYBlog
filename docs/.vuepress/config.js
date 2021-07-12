@@ -60,8 +60,9 @@ module.exports = {
      recordLink: 'https://beian.miit.gov.cn/',
      cyberSecurityRecord: '豫公网安备 41010702002879号',
      cyberSecurityLink: 'http://www.beian.gov.cn',
+
      // 项目开始时间，只填写年份
-     startYear: '2021'
+     startYear: '2020'
   },
   author: "TBY",
 
