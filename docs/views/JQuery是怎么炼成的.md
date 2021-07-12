@@ -27,8 +27,8 @@ tags:
 **实例**
 
 - $(this).hide()---隐藏当前元素
-- $("p").hide()---隐藏所有<p>元素    
-- $("p.test").hide()---隐藏所有class=“test”的<p>元素
+- $("p").hide()---隐藏所有`<p>`元素    
+- $("p.test").hide()---隐藏所有class=“test”的`<p>`元素
 - $("#test").hide()---隐藏id="test"的元素
 
 ### 文档就绪事件
@@ -97,11 +97,11 @@ $(function(){
 
 - $("*")---选取所有元素
 - $("this")---选取当前HTML元素
-- $("p.intro")---选取class为intro的<p>元素
-- $("p:first")---选取第一个<p>元素
-- $("ul li:first")---选取第一个<ul>元素中的第一个<li>元素
-- $("ul li:first-chid")---选取每个ul元素中的第一个<li>元素
-- $("p:eq(数字)")---选取第数字+1个p元素
+- $("p.intro")---选取class为intro的`<p>`元素
+- $("p:first")---选取第一个`<p>`元素
+- $("ul li:first")---选取第一个`<ul>`元素中的第一个`<li>`元素
+- $("ul li:first-chid")---选取每个`<ul>`元素中的第一个`<li>`元素
+- $("p:eq(数字)")---选取第数字+1个`<p>`元素
 
 > 在JQuery中有一个比较有趣的现象，如果在父子选择器的基础上加上:first/:last/:eq(数字)  的话 只在子元素后面加上这三个指定词，那么:first/:eq(数字)就认定是在第一个父元素的基础上进行子元素的变动、:last就认定是在最后一个父元素的基础上进行子元素的变动
 >
@@ -173,11 +173,11 @@ $(function(){
 > ```
 
 - $("[href]")---选取带有href属性的元素
-- $("a[target='_blank']")---选取所有target属性值等于"\_blank"的<a>元素
-- $("a[target!='_blank']")---选取所有target属性值不等于"\_blank"的<a>元素
-- $(":button")---选取所有type="button"的<input>元素和<button>元素
-- $("tr:even")---选取偶数位置的<tr>元素
-- $("tr:odd")---选取奇数位置的<tr>元素
+- $("a[target='_blank']")---选取所有target属性值等于"\_blank"的`<a>`元素
+- $("a[target!='_blank']")---选取所有target属性值不等于"\_blank"的`<a>`元素
+- $(":button")---选取所有type="button"的`<input>`元素和`<button>`元素
+- $("tr:even")---选取偶数位置的`<tr>`元素
+- $("tr:odd")---选取奇数位置的`<tr>`元素
 
 ## JQuery事件
 
