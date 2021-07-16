@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9dd3a6ea-b8d5-447f-a4a2-ebab771ec293" name="Default Changelist" comment="Default Changelist">
-      <change beforePath="$PROJECT_DIR$/docs/views/JQuery是怎么炼成的.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/views/JQuery是怎么炼成的.md" afterDir="false" />
-    </list>
+    <list default="true" id="9dd3a6ea-b8d5-447f-a4a2-ebab771ec293" name="Default Changelist" comment="Default Changelist" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,7 +106,7 @@
       <workItem from="1625214025761" duration="1562000" />
       <workItem from="1625535878257" duration="954000" />
       <workItem from="1625817998078" duration="129000" />
-      <workItem from="1626061430095" duration="307000" />
+      <workItem from="1626061430095" duration="916000" />
     </task>
     <servers />
   </component>

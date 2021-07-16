@@ -185,11 +185,175 @@ $(function(){
 
 ### 鼠标事件
 
+#### click
+
+> **点击事件**
+
+```js
+$("p").click(function(){
+    alert("段落被点击了")
+})
+```
+
+#### dblclick
+
+> **双击事件**
+
+```js
+$("p").dblclick(function(){
+    alert("这个段落被双击。");
+});
+```
+
+#### mouseenter
+
+> **鼠标进入事件**
+
+```js
+$("p").mouseenter(function(){
+    $(this).css("background-color","yellow")
+})
+```
+
+#### mouseleave
+
+> **鼠标离开事件**
+
+```js
+$("p").mouseleave(function(){
+    $(this).css("background-color","green")
+})
+```
+
+#### hover
+
+> **鼠标悬停事件**
+>
+> 该事件中可以运行两个函数，分别配套mouseenter和mouseleave事件。如果只填写一个函数那么这个函数直接配套mouseenter和mouseleave两个函数
+
+```js
+$("p").hover(function(){
+    $("p").css("background-color","yellow");
+},function(){
+    $("p").css("background-color","pink");
+});
+```
+
 ### 键盘事件
+
+#### keypress
+
+> 我认为是一个不算完全的键盘事件，官方文档解释是：**键按下过程**。但实际上如果你是用输入法的话就不能正常的触发事件，并且ALT、CTRL、SHIFT、ESC键也都不会触发，那么这个事件以后尽量不要使用，使用keydown或者keyup事件进行代替。
+
+#### keydown
+
+> 键盘按下事件
+
+```js
+$("input").keydown(function(){
+    $("input").css("background-color","yellow");
+});
+```
+
+#### keyup
+
+> 键盘松开事件
+
+```js
+$("input").keyup(function(){
+    $("input").css("background-color","pink");
+});
+```
 
 ### 表单事件
 
+#### submit
+
+> 表单提交事件
+
+```js
+$("form").submit(function(){
+    alert("提交");
+});
+```
+
+#### change
+
+> 表单内容修改事件
+
+```js
+$("input").change(function(){
+    alert("文本已被修改");
+});
+```
+
+#### focus
+
+> 表单获得焦点事件
+
+```js
+  $("input").focus(function(){
+    $("span").css("display","inline").fadeOut(2000);
+  });
+```
+
+#### blur
+
+> 表单失去焦点事件
+
+```js
+$("input").blur(function(){
+    alert("输入框失去了焦点");
+});
+```
+
 ### 文档/窗口事件
+
+#### load
+
+> 元素加载事件
+>
+> 当图片全部加载时触发该事件（PS：在JQuery1.8中已经弃用）
+
+```js
+$("img").load(function(){
+    alert("图片已载入");
+});
+```
+
+#### resize
+
+> 调整浏览器窗口大小事件
+
+```js
+$(window).resize(function(){
+    $('span').text(x+=1);
+});
+```
+
+#### scroll
+
+> 元素滚动事件
+
+```js
+$("div").scroll(function(){
+    $("span").text(x+=1);
+});
+```
+
+## JQuery效果
+
+### 隐藏和显示
+
+> hide（）
+
+
+
+
+
+
+
+
 
 
 
