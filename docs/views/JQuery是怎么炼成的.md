@@ -345,7 +345,361 @@ $("div").scroll(function(){
 
 ### 隐藏和显示
 
-> hide（）
+#### hide
+
+> 语法：$(selector).hide(speed,callback);
+>
+> speed参数规定隐藏的速度，可以取"slow"、"fast"、毫秒
+>
+> callback参数是隐藏完成后执行的函数名称
+
+```js
+$("#hide").click(function(){
+  $("p").hide();
+});
+```
+
+#### show
+
+> 语法：$(selector).show(speed,callback);
+>
+> speed参数规定显示的速度，可以取"slow"、"fast"、毫秒
+>
+> callback参数是显示完成后执行的函数名称
+
+```js
+$("#show").click(function(){
+  $("p").show();
+});
+```
+
+#### toggle
+
+> 语法：$(selector).toggle(speed,callback);
+>
+> speed参数规定显示/隐藏的速度，可以取"slow"、"fast"、毫秒
+>
+> callback参数是显示/隐藏完成后执行的函数名称
+
+```js
+$("button").click(function(){
+  $("p").toggle();
+});
+```
+
+### 淡入淡出
+
+#### fadeIn
+
+> **使不显示的元素显示**
+>
+> 语法：$(selector).fadeIn(speed,callback)
+>
+> speed参数规定效果的时长，可以取"slow"、"fast"、毫秒
+>
+> callback参数是动作完成后执行的函数名称
+
+```js
+$("button").click(function(){
+  $("#div1").fadeIn();
+  $("#div2").fadeIn("slow");
+  $("#div3").fadeIn(3000);
+});
+```
+
+#### fadeOut
+
+> **使显示的元素不显示**
+>
+> 语法：$(selector).fadeOut(speed,callback)
+>
+> speed参数规定效果的时长，可以取"slow"、"fast"、毫秒
+>
+> callback参数是动作完成后执行的函数名称
+
+```js
+$("button").click(function(){
+  $("#div1").fadeOut();
+  $("#div2").fadeOut("slow");
+  $("#div3").fadeOut(3000);
+});
+```
+
+#### fadeToggle
+
+> **使元素在fadeIn和fadeOut两种状态来回切换**
+>
+> 语法：$(selector).fadeToggle(speed,callback)
+>
+> speed参数规定效果的时长，可以取"slow"、"fast"、毫秒
+>
+> callback参数是动作完成后执行的函数名称
+
+```js
+$("button").click(function(){
+  $("#div1").fadeToggle();
+  $("#div2").fadeToggle("slow");
+  $("#div3").fadeToggle(3000);
+});
+```
+
+#### fadeTo
+
+> **使元素渐变为指定透明度**
+>
+> 语法：$(selector).fadeTo(speed,opacity,callback)
+>
+> speed参数规定效果的时长，可以取"slow"、"fast"、毫秒  ----   **必填**
+>
+> opacity参数为指定的透明度，范围在0~1之间  ----   **必填**
+>
+> callback参数是动作完成后执行的函数名称
+
+```js
+$("button").click(function(){
+  $("#div1").fadeTo("slow",0.15);
+  $("#div2").fadeTo("slow",0.4);
+  $("#div3").fadeTo("slow",0.7);
+});
+```
+
+### 滑动
+
+#### slideDown
+
+> **使元素向下滑动的方式出现**
+>
+> 语法：$(selector).slideDown(speed,callback)
+>
+> speed参数规定效果的时长，可以取"slow"、"fast"、毫秒
+>
+> callback参数是动作完成后执行的函数名称
+
+```js
+$("#flip").click(function(){
+  $("#panel").slideDown();
+});
+
+```
+
+#### slideUp
+
+> **使元素向上滑动的方式消失**
+>
+> 语法：$(selector).slideUp(speed,callback)
+>
+> speed参数规定效果的时长，可以取"slow"、"fast"、毫秒
+>
+> callback参数是动作完成后执行的函数名称
+
+```js
+$("#flip").click(function(){
+  $("#panel").slideUp();
+});
+```
+
+#### slideToggle
+
+> **使元素在slideDown和slideUp两种状态来回切换**
+>
+> 语法：$(selector).slideToggle(speed,callback)
+>
+> speed参数规定效果的时长，可以取"slow"、"fast"、毫秒
+>
+> callback参数是动作完成后执行的函数名称
+
+```js
+$("#flip").click(function(){
+  $("#panel").slideToggle();
+});
+```
+
+### 动画
+
+> **JQuery  animate()方法用户创建自定义动画 **
+>
+> **animate()方法几乎可以操作所有CSS属性，但是要是用驼峰的形式书写属性名，如：padding-left应该写为paddingLeft**
+>
+> 语法：$(selector).animate({params},speed,callback)
+>
+> params参数定义形成动画的CSS属性，并且可以一次写多个CSS样式属性  ----   **必填**
+>
+> speed参数规定效果的时长，可以取"slow"、"fast"、毫秒
+>
+> callback参数是动作完成后执行的函数名称
+
+#### animate
+
+```js
+$("button").click(function(){
+  $("div").animate({left:'250px'});
+});
+```
+
+#### animate操作多个属性
+
+> 注意：animate几乎可以操作所有的CSS属性，并且必须使用驼峰命名法来书写属性名
+
+```js
+$("button").click(function(){
+  $("div").animate({
+    left:'250px',
+    opacity:'0.5',
+    height:'150px',
+    width:'150px'
+  });
+});
+```
+
+#### animate使用相对值
+
+> 注意：需要在值得前面加上+=或-= 
+
+```js
+$("button").click(function(){
+  $("div").animate({
+    left:'250px',
+    height:'+=150px',
+    width:'+=150px'
+  });
+});
+```
+
+#### animate使用队列功能
+
+> JQuery提供对动画的队列功能。如果编写多个animate动画连在一起，那么在执行阶段，会使用队列的方式进行动画的执行，在先执行完成第一个animate动画之后才会执行第二个animate动画，以此类推。。。。
+
+```js
+$("button").click(function(){
+  var div=$("div");
+  div.animate({height:'300px',opacity:'0.4'},"slow");
+  div.animate({width:'300px',opacity:'0.8'},"slow");
+  div.animate({height:'100px',opacity:'0.4'},"slow");
+  div.animate({width:'100px',opacity:'0.8'},"slow");
+});
+```
+
+### 停止动画
+
+#### stop
+
+> 用于在动画完成前对它们进行停止（PS：可以停止动画和其他一切动画效果）
+>
+> 语法：$(selector).stop(stopAll,gotoEnd)
+> stopAll参数规定是否清除动画列表。默认为false，即仅停止活动的动画，允许任何排入队列的动画向后执行。
+>
+> goToEnd参数规定是否立即完成当前动画，默认是false。
+
+```js
+$("#stop").click(function(){
+  $("#panel").stop();
+});
+```
+
+## JQuery链
+
+> 在JQuery中允许使用链式操作
+>
+> 如果需要在相同的元素上运行多条JQuery命令，那么就可以使用链式操作。执行原理和队列的方式相同
+
+```js
+$("#p1").css("color","red").slideUp(2000).slideDown(2000);
+```
+
+## JQuery HTML
+
+### 获取内容和属性
+
+> JQuery拥有可操作HTML元素和属性的强大方法
+
+#### 获取内容-text()、html()、以及val()
+
+> text（）只会显示所选元素的文本内容，不会显示多余的内容
+>
+> html（）会显示所选元素内包含的所有内容，包括HTML标签
+
+- text（）
+  - 设置或返回所选元素的文本内容
+- html（）
+  - 设置或返回所选元素的内容（包括HTML标记）
+
+```js
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+</script>
+<script>
+$(document).ready(function(){
+  $("#btn1").click(function(){
+    //alert("Text: " + $("#test").text()='6544321');
+	  $("#test").text('<h2>654321</h2>')
+  });
+  $("#btn2").click(function(){
+    //alert("HTML: " + $("#test").html());
+	  $("#test").html('<h1>654321</h1>')
+  });
+});
+</script>
+</head>
+
+<body>
+<p id="test">这是段落中的<b>粗体</b><i>斜体</i>文本。</p>
+<button id="btn1">显示文本</button>
+<button id="btn2">显示 HTML</button>
+</body>
+</html>
+```
+
+- val（）
+  - 设置或返回表单字段的值
+
+```js
+$("#btn1").click(function(){
+  alert("值为: " + $("#test").val());
+});
+```
+
+#### 获取属性-attr()和prop()
+
+> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
