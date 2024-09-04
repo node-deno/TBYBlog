@@ -31,6 +31,7 @@ Git 与常用的版本控制工具 CVS, Subversion 等不同，它采用了分�
 - 重写name或者email
   - git config --global(local/system) --replace-all user.name(user.email) 'you_name(you_email)'
   
+
 **config的三个作用域**
 
 - --local    **对某个仓库生效**
@@ -59,8 +60,7 @@ Git 与常用的版本控制工具 CVS, Subversion 等不同，它采用了分�
 > 在GIT的命令中，后面加的后缀都是可以互相叠加的
 
 - **git mv** 
-
-  - **git mv 文件1 文件2**  对被git管理的文件进行重命名（等价于先将文件名称进行mv，再add 文件，将更名之后的文件保存至暂存区）
+- **git mv 文件1 文件2**  对被git管理的文件进行重命名（等价于先将文件名称进行mv，再add 文件，将更名之后的文件保存至暂存区）
 - **git rm ** 
 
   - **git rm 文件**  对被git管理的文件进行删除(等价于先将文件进行rm，再add文件，将文件删除保存至暂存区)
@@ -128,7 +128,7 @@ Git 与常用的版本控制工具 CVS, Subversion 等不同，它采用了分�
       - **git reset --soft commitID**  回退至某个版本，但是工作区的内容不变，并且只回退了commit的信息。不会对文件内容做修改，如果需要提交直接进行commit操作即可
 - **git reset --hard** 清理工作区和暂存区所有的变更（**不会对未跟踪的文件做修改，例如：在工作区新增一个文件；在工作区对一个文件进行改名，改名之后的文件也为新增的文件**）
 - **git stash** （如果在开发过程中进行了临时加塞，我们可以使用stash先将目前的代码暂存起来）
-  - **git stash 【save  ‘保存的信息’】 ** 将现在的开发任务放在一个堆栈中进行保存,并且遵循先进后出的原则
+  - **git stash save 【 ‘保存的信息’】 ** 将现在的开发任务放在一个堆栈中进行保存,并且遵循先进后出的原则
   - **git stash list** 查看stash堆栈中的存储信息
   - **git stash apply 【数字】** 推出stash堆栈中的第N项（如果不添加数字，默认为第一项）
   - **git stash pop 【数字】** 推出stash堆栈中的第N项（如果不添加数字，默认为第一项），并且删除stash堆栈中的这个stash
@@ -139,10 +139,14 @@ Git 与常用的版本控制工具 CVS, Subversion 等不同，它采用了分�
   - **git remote add 远端仓库名称 远端仓库地址**  添加远端仓库
   - **git remote rm 远端仓库名称** 删除远端仓库
   - **git remote rm old_name new_name** 修改远端仓库名称
+  - **git remote show origin**  查看远端分支与本地分支之间的对应关系
+  - **git remote prune origin**  删除本地依然存在但是远端已经不存在的分支（PS：之前本地分支在远端上有对应的分支，在github上将远端分支删除，本地存储对应的远端分支就需要使用这种方式进行删除）
 - **git fetch**
 - **git pull** （其实是git fetch 与 git merge 合并的命令）
 - **git push**
-  - **git push --set-upstream 远端仓库 远端分支** 在本地创建一个新分支时，没有与远端分支相对应当前本地分支时，需要进行本地分支与远端分支对应上之后才能进行push（本次操作包含本地分支与远端分支对应，并且将本次代码push到远端分支，如果远端分支不存在还会自动的创建远端分支）
+  - **git push --set-upstream 远端仓库 远端分支**   在本地创建一个新分支时，没有与远端分支相对应当前本地分支时，需要进行本地分支与远端分支对应上之后才能进行push（本次操作包含本地分支与远端分支对应，并且将本次代码push到远端分支，如果远端分支不存在还会自动的创建远端分支）
+  - **git push --delete 远端仓库  远端分支**    删除远端分支
+  - **git push --force**    将本地的内容强制上传至远端
 
 # GIT进阶命令
 
@@ -154,5 +158,4 @@ Git 与常用的版本控制工具 CVS, Subversion 等不同，它采用了分�
   - **git rebase -i 需要修改commit的父级commitID（使用HEAD~数字也可以）** 进行rebase的交互式操作，会进入到交互式的页面
   - 根据提示，我们选择我们需要进行的操作。如果需要修改之前几次commit的message，只需要到那一次commit之前将pick 改为 r，按照git提示操作即可；如果需要将连续几次commit整理为1个，只需要到那一次commit之前将pick 改为 s，按照git提示操作即可。git 
 - **git rev-parse HEAD 显示HEAD的HASH值，可以直接看出来HEAD的HASH值与当前分支最新commit的HASH值相同**
-
 

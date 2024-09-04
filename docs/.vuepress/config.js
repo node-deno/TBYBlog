@@ -2,7 +2,7 @@ const nav = require("./config/nav");
 const sidebar = require("./config/sidebar");
 
 module.exports = {
-  title: "TBYBlog",
+  title: "前后端代码学习笔记",
   description: "人生除了生死  其他都是擦伤",
   theme: "reco",
   base: "", //在服务器哪个路径下就配置什么路径，如果在根路径下啥都不用配置
@@ -28,7 +28,7 @@ module.exports = {
     ],
 
     // 侧边栏的配置
-    sidebar, 
+    sidebar,
 
     // 侧边栏是否打开
     sidebarDepth: "auto",
@@ -46,14 +46,14 @@ module.exports = {
     // },
 
     // 增加友情链接
-    friendLink: [
-      {
-		title: '索洪波的博客',
-		desc:'分享前端相关知识技巧、原创html特效！',
-		logo:'https://suohb.com/images/logo.jpg',
-		link:'https://suohb.com/'
-      },
-    ],
+    // friendLink: [
+    //   {
+	// 	title: '索洪波的博客',
+	// 	desc:'分享前端相关知识技巧、原创html特效！',
+	// 	logo:'https://suohb.com/images/logo.jpg',
+	// 	link:'https://suohb.com/'
+    //   },
+    // ],
 
      // 备案
      record: '豫ICP备2021001417号-1',
